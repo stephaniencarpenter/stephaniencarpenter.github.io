@@ -1,0 +1,140 @@
+html {
+      height: 100%;
+      background: url("pastabig.jpg") fixed;
+    }
+    body {
+       font-family: Helvetica, sans-serif;
+       width: 800px;
+       margin: 0 auto;
+       padding-top: 5px;
+       height: 100%;
+       display: block;
+       /*background-color: #F2AD2C ;*/
+
+   }
+    header {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        font-size: 20px;
+        display: block;
+        width: 790px;
+
+   }
+    h1 {
+      border-radius: 50%;
+      width: 100%;
+      background-color: salmon;
+    }
+    p {
+        display: block;
+        background-color: salmon;
+        margin: 0;
+        border-radius: 50%
+        padding: 5px;
+        text-align: center;
+    }
+    #hungry {
+      background-color: salmon;
+      width: 100%;
+      margin: 10 40 10 40;
+      padding: 5px;
+    }
+    img {
+        display: block;
+        margin: auto;
+        width: 40%;
+        border-radius: 50%;
+        height: 30%;
+    }
+    .plate {
+        width: 100%;
+
+   }
+    nav {
+        font-size: 18px;
+        float: center;
+        text-align: center;
+
+   }
+    nav ul {
+        background-color: #dddddd ;
+        height: 45px;
+        width: 100%;
+        padding: 0px;
+        margin: 0 auto;
+        float: center;
+        border-bottom: 1px solid #cccccc ;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        border-right: 1px solid #cccccc ;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+    }
+    a {
+        color: black;
+    }
+    section {
+        width: 45%;
+        display: inline-block;
+        float: left;
+        padding:10px;
+    }
+    aside ul {
+      /*text-align: center;*/
+      list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:black;
+        color:white;
+        text-align:center;
+        clear: both;
+        padding:5px;
+        display: block;
+  }
+.left {
+    line-height:30px;
+    background-color:salmon;
+    min-height:100%;
+    width:24%;
+    display: inline-block;
+    vertical-align: top;
+    padding:5px;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    font-style: italic;
+    border: 5px;
+  }
+  .left li {
+    margin-right: 45px;
+  }
+  .right {
+      line-height:30px;
+      background-color:salmon;
+      min-height:100%;
+      width:24%;
+      display: inline-block;
+      vertical-align: top;
+      padding:5px;
+      font-size: 14px;
+      text-align: center;
+      float: right;
+      font-style: italic;
+      border: 5px;
+    }
+    .right li {
+      margin-right: 45px
+    }
+    #container {
+      width: 100%;
+      height: 60%;
+    }
